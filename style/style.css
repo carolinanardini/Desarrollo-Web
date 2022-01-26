@@ -320,6 +320,10 @@ width: 100%;
         font-weight: bold;
     }
 
+    .section__img:hover{
+        transform: scale(1.25);
+    }
+
 /* GRILLA DE PAGINA "COMO FUNCIONA" */
 
 .main__grilla--CF{
