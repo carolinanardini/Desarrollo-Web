@@ -234,7 +234,7 @@ width: 100%;
     background-color: wheat;
     border: solid 30px wheat;
     border-radius: 30px;
-    width: 600px;
+    width: 625px;
     margin: 30px;
     padding: 10px;
 
@@ -322,6 +322,23 @@ width: 100%;
 
     .section__img:hover{
         transform: scale(1.25);
+    }
+
+    /* Arreglando el agregado de bootstrap */
+
+    .margen{
+        margin-bottom: 0px;
+    }
+
+    .color{
+        color: rgb(128, 126, 120);
+    }
+
+    .fondo{
+        background-color: wheat;
+        padding: 20px;
+        font-size: 20px;
+        margin-top: 20px;
     }
 
 /* GRILLA DE PAGINA "COMO FUNCIONA" */

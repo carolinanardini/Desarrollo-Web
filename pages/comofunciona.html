@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -12,20 +13,20 @@
 </head>
 <body>
     <header class="header">
-        <h1 class="header__h1"><a href="../index.html">Cykel </a></h1>
+        <h1 class="header__h1 margen"><a class="color" href="../index.html">Cykel </a></h1>
         
         <nav class="header__nav">
-            <ul class="header__ul">
-                <li><a href="quiensoy.html">Quién soy</a></li>
-                <li><a href="comofunciona.html">Cómo funciona</a></li>
-                <li><a href="filosofia.html">Filosofía</a>
+            <ul class="header__ul margen">
+                <li><a class="color" href="quiensoy.html">Quién soy</a></li>
+                <li><a class="color" href="comofunciona.html">Cómo funciona</a></li>
+                <li><a class="color" href="filosofia.html">Filosofía</a>
                     
                     <ul class="header__ul--submenu">
-                        <li><a href="valores.html">Valores</a></li>
-                        <li><a href="sustentabilidad.html">Sustentabilidad</a></li>
+                        <li><a class="color" href="valores.html">Valores</a></li>
+                        <li><a class="color" href="sustentabilidad.html">Sustentabilidad</a></li>
                     </ul>
                 </li>
-                <li><a href="soycomercio.html">Soy un comercio</a></li>
+                <li><a class="color" href="soycomercio.html">Soy un comercio</a></li>
             </ul>
         </nav>
     </header>
@@ -62,24 +63,70 @@
             </div>
 
         </section>
+        <section>
+            <div>
+                <p class="fondo">Preguntas frecuentes</p>
+            </div>
+           
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Cómo puedo ser parte de Cykel?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Envianos un mensaje.</strong> Accedé al formulario de contacto en la sección de "Soy comercio" y envianos tus datos! Un asesor se contactará a la brevedad.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Es gratuito unirse a Cykel?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Si!</strong> Ser parte de Cykel es totalmente gratuito y obtendrás beneficios para tu negocio (y para el planeta!).
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Qué beneficios tiene unirse a Cykel?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Al ser parte de Cykel podrás vender productos que normalmente terminarían siendo desechos. Al final de cada día, al publicar a precio promocional los alimentos que no se vendieron, tendrán más demanda y se venderán más facilmente. De esta manera, tu negocio siempre tendrá productos frescos, y ganarás plata por algo que antes iba directo a la basura. Además, el planeta también gana! Al reducir los residuos, contribuís a no contaminar el medioambiente. 
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
    </main>
+
+    <footer class="footer">
+        <div class="footer__div">
+            <p>Seguinos en las redes!</p>
+        </div>
+
+        <div class="footer__div">
+            <img src="../images/instagram.png" alt="instagram" width="20" height="20">
+            <a class="color" href="https://www.instagram.com">Instagram</a>
+            <br>
+            <img src="../images/facebook.png" alt="facebook" width="20" height="20">
+            <a class="color" href="https://www.facebook.com">Facebook</a>
+            <br>
+            <img src="../images/twitter.jpeg" alt="twitter" width="20" height="20">
+            <a class="color" href="https://twitter.com">Twitter</a>
+        </div>
+
+            
+    </footer>
+    <script src="../js/bootstrap.js"></script>
 </body>
-<footer class="footer">
-    <div class="footer__div">
-        <p>Seguinos en las redes!</p>
-    </div>
-
-    <div class="footer__div">
-        <img src="../images/instagram.png" alt="instagram" width="20" height="20">
-        <a href="https://www.instagram.com">Instagram</a>
-        <br>
-        <img src="../images/facebook.png" alt="facebook" width="20" height="20">
-        <a href="https://www.facebook.com">Facebook</a>
-        <br>
-        <img src="../images/twitter.jpeg" alt="twitter" width="20" height="20">
-        <a href="https://twitter.com">Twitter</a>
-    </div>
-
-        
-</footer>
 </html>
