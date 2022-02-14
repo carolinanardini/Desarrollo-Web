@@ -59,10 +59,11 @@
     margin-bottom: 155px;
     margin-top: 155px;
     color: white;
-    background-color:  $verde-claro;
+    // background-color: rgba(182, 188, 214, 0.5);
     display: inline-block;
     justify-content: center;
     padding: 10px;
+    text-shadow: 2px 2px 4px #000000;
 
 }
 .main__h3{

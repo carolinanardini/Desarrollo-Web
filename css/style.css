@@ -4,6 +4,21 @@
   font-family: 'Montserrat', sans-serif;
   color: #807e78; }
 
+.negrita {
+  font-weight: bolder;
+  font-size: bolder;
+  text-align: bolder; }
+
+.grande {
+  font-weight: 20px;
+  font-size: 20px;
+  text-align: 20px; }
+
+.centro {
+  font-weight: center;
+  font-size: center;
+  text-align: center; }
+
 .header__h1 {
   font-size: 60px;
   text-decoration: none;
@@ -54,10 +69,10 @@
   margin-bottom: 155px;
   margin-top: 155px;
   color: white;
-  background-color: #cee5d0;
   display: inline-block;
   justify-content: center;
-  padding: 10px; }
+  padding: 10px;
+  text-shadow: 2px 2px 4px #000000; }
 
 .main__h3 {
   font-size: 25px;

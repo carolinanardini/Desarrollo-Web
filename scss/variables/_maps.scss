@@ -1,0 +1,22 @@
+$textoResaltado: (
+    negrita: bolder, 
+    grande: 20px,
+    centro: center,
+
+
+);
+
+// BUCLE: PARA LEER EL MAPA
+@each $frases, $formato in $textoResaltado{
+    .#{$frases}{
+        
+        font-weight: $formato;
+        font-size: $formato;
+        text-align: $formato;
+        
+        
+    }
+
+}
+
+

@@ -1,0 +1,4 @@
+Para el desafío de SEO agregué:
+1- etiqueta meta en todas las páginas html con 10 keywords.
+2- etiqueta meta en todas las páginas html con una description de aproximadamente 40 palabras.
+3- se cambió el idioma del código a español ("es")
