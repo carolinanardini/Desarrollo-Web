@@ -18,6 +18,7 @@
 .header__ul {
     list-style-type: none
 }
+
 .header__ul li{
     display: inline-block;
     position: relative;
@@ -29,10 +30,12 @@
     text-decoration: none;
     padding: 20px;
 }
+
 .header__ul--submenu{
     position: absolute;
     display: none;
 }
+
 .header__ul--submenu li{
     display: block;
     background-color: wheat;
@@ -40,14 +43,11 @@
     z-index: 1;
 }
 
-
 .header__ul li:hover ul{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
 }
-
-
 
 .header__nav {
     background-color: wheat;
@@ -59,13 +59,12 @@
     margin-bottom: 155px;
     margin-top: 155px;
     color: white;
-    // background-color: rgba(182, 188, 214, 0.5);
     display: inline-block;
     justify-content: center;
     padding: 10px;
     text-shadow: 2px 2px 4px #000000;
-
 }
+
 .main__h3{
 
     font-size: 25px;
@@ -73,14 +72,11 @@
     text-align: center;
     background-color: wheat;
     font-weight: lighter;
-
-
 }
 
 .header__ul li :hover {
     font-weight: bolder;
     background-color: $verde-claro;
-
 }
 
 
@@ -93,15 +89,12 @@ width: 100%;
 .footer{
 
     border: solid 30px $amarillo-claro;
-    background-color: $amarillo-claro;
-    
-
+    background-color: $amarillo-claro;   
 }
 
 .mainPages__h2{
     border: solid 20px $amarillo-claro;
     font-size: 30px;
-
 }
 
 .main__section{
@@ -113,8 +106,7 @@ width: 100%;
 }
 
 .footer__div{
-    padding: 5px;
-    
+    padding: 5px;   
 }
 
 .main__div--box{
@@ -134,19 +126,10 @@ width: 100%;
     text-align: center;
     font-size: 15px;
     text-decoration: none;
-
 }
 
 .main__div--box a{
     text-decoration: none;
-}
-
-.main__div--video{
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    margin: 50px;
-
 }
 
 
@@ -159,24 +142,6 @@ width: 100%;
 .main__div--presentacion{
     display: inline-block;
     padding: 10px;
-
-
-}
-
-.main__cara{
-    display: inline-block;
-    width: 250px;
-    border: solid 2px wheat;
-    border-radius: 150px;
- 
-
-}
-
-.main__p--QS{
-    padding: 20px;
-    display: inline-block;
-    width: 500px;
-
 }
 
 .main__p{
@@ -186,10 +151,6 @@ width: 100%;
     height: 30px;
 }
 
-.main__h3--soycomercio{
-    padding: 20px;
-    font-weight: lighter;
-}
 
 .main__section--bubble{
     display: inline-block;
@@ -201,44 +162,6 @@ width: 100%;
     margin: 50px;
     margin-top: 80px;
     padding: 10px;
-
-}
-
-.main__div--filosofia{
-    font-size: 35px;
-    padding-bottom: 20px;
-}
-
-.main__video{
-    width: 560px;
-    height: 315px;
-}
-
-.main__section--bubbleCom{
-    display: inline-block;
-    background-color: wheat;
-    border: solid 30px wheat;
-    border-radius: 30px;
-    width: 700px;
-    margin: 50px;
-    padding: 10px;
-
-}
-
-.main__div--bubbleCom{
-    display: inline-block;
-    background-color: wheat;
-    border: solid 30px wheat;
-    border-radius: 30px;
-    width: 625px;
-    margin: 30px;
-    padding: 10px;
-
-}
-
-.main__h2--pagesQS{
-    font-size: 35px;
-    padding-bottom: 20px;
 }
 
 .main__section--grilla{
@@ -250,7 +173,6 @@ width: 100%;
     height: 450px;
     padding: 10px;
     margin: 20px;
-
 }
 
 .main__section--index{
@@ -320,115 +242,6 @@ width: 100%;
         transform: scale(1.25);
     }
 
-    /* Arreglando el agregado de bootstrap */
-
-    .margen{
-        margin-bottom: 0px;
-    }
-
-    .color{
-        color: rgb(128, 126, 120);
-    }
-
-    .fondo{
-        background-color: wheat;
-        padding: 20px;
-        font-size: 20px;
-        margin-top: 20px;
-    }
-
-/* GRILLA DE PAGINA "COMO FUNCIONA" */
-
-.main__grilla--CF{
-    display: grid;
-    grid-template-columns: 20% 25% 10% 25% 20%; 
-    grid-template-rows: (5,100vh); 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "main__div--bubbleCom main__div--bubbleCom main__div--bubbleCom main__div--bubbleCom ."
-      ". main__div--descarga . . ."
-      ". . . main__div--elegi ."
-      ". main__div--compra . . ."
-      ". . . main__div--retira ."; 
-    }
-
-    .main__div--bubbleCom { 
-        grid-area: main__div--bubbleCom;
-    }
-
-    .main__div--descarga { 
-        grid-area: main__div--descarga;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: $verde-claro;
-        border-radius: 10%;
-        padding: 40px;
-    }
-
-    .main__div--elegi { 
-        grid-area: main__div--elegi;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: $verde-claro;
-        border-radius: 10%;
-        padding: 40px;
-    }
-
-    .main__div--compra { 
-        grid-area: main__div--compra;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: $verde-claro;
-        border-radius: 10%;
-        padding: 40px;
-    }
-
-    .main__div--retira { 
-        grid-area: main__div--retira;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: $verde-claro;
-        border-radius: 10%;
-        padding: 40px;
-    }
-
-    .main__p--items{
-        padding: 10px;
-    }
-
-    .main__div--logos{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .main__logos{
-        width: 30px;
-        margin: 15px;
-    }
-
-/* GRILLA DE QUIEN SOY */
-.main__section--grilla{
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
-    gap: 15px 0px; 
-    grid-template-areas: 
-      "main__h2--pagesQS main__h2--pagesQS ."
-      "main__p--QS main__p--QS main__cara"
-      "main__p--QS main__p--QS main__cara"
-      "main__p--QS main__p--QS ."
-      "main__p--QS main__p--QS ."
-      "main__p--QS main__p--QS ."; 
-  }
-  .main__h2--pagesQS { grid-area: main__h2--pagesQS; }
-  .main__p--QS { grid-area: main__p--QS; }
-  .main__cara { grid-area: main__cara; }
-
-
 
 /* RESPONSIVE */
 
@@ -447,87 +260,6 @@ width: 100%;
 
     .section__img{
         width: 300px;
-    }
-}
-@media (max-width:600px){
-    .main__grilla--CF {
-        display: grid; 
-        grid-template-columns: 1fr; 
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
-        gap: 15px 15px; 
-        grid-template-areas: 
-            "main__div--bubbleCom"
-            "main__div--descarga"
-            "main__div--elegi"
-            "main__div--compra"
-            "main__div--retira"; 
-    }
-    .main__div--bubbleCom{
-        width: 250px;
-    }
-    .main__p{
-        width: 250px;
-    }
-    .main__div--descarga { 
-        margin: 30px;
-     }
-    
-    .main__div--elegi { 
-        margin: 30px;
-     }
-    
-    .main__div--compra { 
-        margin: 30px;
-     }
-    
-    .main__div--retira { 
-        margin: 30px;
-     }
-}
-
-@media (max-width:960px){
-    .main__section--grilla {
-  
-        display: grid; 
-        grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
-        gap: 15px 0px; 
-        width: 250px;
-        grid-template-areas: 
-            "main__h2--pagesQS main__h2--pagesQS"
-            "main__cara main__cara"
-            "main__cara main__cara"
-            "main__cara main__cara"
-            "main__cara main__cara"
-            "main__p--QS main__p--QS"; 
-        }
-        .main__h2--pagesQS { grid-area: main__h2--pagesQS; }
-        .main__cara { grid-area: main__cara;
-            width: 175px;
-         }
-        .main__p--QS { grid-area: main__p--QS;
-            width: 250px;
-            
-        }
-}
-
-@media (max-width:960px){
-    .main__section--bubble{
-        width: 200px;
-    }
-    .main__video{
-        width: 250px;
-        height: 315px;
-    }
-}
-
-@media (max-width:960px){
-    .main__section--bubbleCom{
-        width: 200px;
-    }
-
-    .main__p{
-        width: 200px;
     }
 }
 

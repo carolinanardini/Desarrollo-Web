@@ -1,0 +1,67 @@
+.main__cara{
+    display: inline-block;
+    width: 250px;
+    border: solid 2px wheat;
+    border-radius: 150px;
+ 
+
+}
+
+.main__p--QS{
+    padding: 20px;
+    display: inline-block;
+    width: 500px;
+
+}
+
+.main__h2--pagesQS{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+/* GRILLA DE QUIEN SOY */
+.main__section--grilla{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 15px 0px; 
+    grid-template-areas: 
+      "main__h2--pagesQS main__h2--pagesQS ."
+      "main__p--QS main__p--QS main__cara"
+      "main__p--QS main__p--QS main__cara"
+      "main__p--QS main__p--QS ."
+      "main__p--QS main__p--QS ."
+      "main__p--QS main__p--QS ."; 
+  }
+  .main__h2--pagesQS { grid-area: main__h2--pagesQS; }
+  .main__p--QS { grid-area: main__p--QS; }
+  .main__cara { grid-area: main__cara; }
+
+//   RESPONSIVE
+
+  @media (max-width:960px){
+    .main__section--grilla {
+  
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+        gap: 15px 0px; 
+        width: 250px;
+        height: 700px;
+        grid-template-areas: 
+            "main__h2--pagesQS main__h2--pagesQS"
+            "main__cara main__cara"
+            "main__cara main__cara"
+            "main__cara main__cara"
+            "main__cara main__cara"
+            "main__p--QS main__p--QS"; 
+        }
+        .main__h2--pagesQS { grid-area: main__h2--pagesQS; }
+        .main__cara { grid-area: main__cara;
+            width: 175px;
+         }
+        .main__p--QS { grid-area: main__p--QS;
+            width: 250px;
+            
+        }
+}

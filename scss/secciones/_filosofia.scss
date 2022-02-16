@@ -1,0 +1,28 @@
+.main__div--filosofia{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.main__div--video{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.main__video{
+    width: 560px;
+    height: 315px;
+}
+
+// RESPONSIVE
+
+@media (max-width:960px){
+    .main__section--bubble{
+        width: 200px;
+    }
+    .main__video{
+        width: 250px;
+        height: 315px;
+    }
+}

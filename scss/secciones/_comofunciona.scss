@@ -1,0 +1,143 @@
+/* GRILLA DE PAGINA "COMO FUNCIONA" */
+
+.main__grilla--CF{
+    display: grid;
+    grid-template-columns: 20% 25% 10% 25% 20%; 
+    grid-template-rows: (5,100vh); 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "main__div--bubbleCom main__div--bubbleCom main__div--bubbleCom main__div--bubbleCom ."
+      ". main__div--descarga . . ."
+      ". . . main__div--elegi ."
+      ". main__div--compra . . ."
+      ". . . main__div--retira ."; 
+    }
+
+    .main__div--bubbleCom { 
+        grid-area: main__div--bubbleCom;
+    }
+
+    .main__div--descarga { 
+        grid-area: main__div--descarga;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $verde-claro;
+        border-radius: 10%;
+        padding: 40px;
+    }
+
+    .main__div--elegi { 
+        grid-area: main__div--elegi;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $verde-claro;
+        border-radius: 10%;
+        padding: 40px;
+    }
+
+    .main__div--compra { 
+        grid-area: main__div--compra;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $verde-claro;
+        border-radius: 10%;
+        padding: 40px;
+    }
+
+    .main__div--retira { 
+        grid-area: main__div--retira;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $verde-claro;
+        border-radius: 10%;
+        padding: 40px;
+    }
+
+    .main__p--items{
+        padding: 10px;
+    }
+
+    .main__div--logos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main__logos{
+        width: 30px;
+        margin: 15px;
+    }
+
+    // Arreglando el agregado de bootstrap
+
+    .margen{
+        margin-bottom: 0px;
+    }
+
+    .color{
+        color: rgb(128, 126, 120);
+    }
+
+    .fondo{
+        background-color: wheat;
+        padding: 20px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .main__h2--pages{
+        font-weight: bold;
+    }
+
+    .header__ul li :hover {
+        font-weight: bolder;
+        color: rgb(128, 126, 120);
+    }
+
+    .header__ul li:hover ul{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        padding-left: 0;
+    }
+
+// RESPONSIVE
+    
+@media (max-width:600px){
+    .main__grilla--CF {
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+        gap: 15px 15px; 
+        grid-template-areas: 
+            "main__div--bubbleCom"
+            "main__div--descarga"
+            "main__div--elegi"
+            "main__div--compra"
+            "main__div--retira"; 
+    }
+    .main__div--bubbleCom{
+        width: 250px;
+    }
+    .main__p{
+        width: 250px;
+    }
+    .main__div--descarga { 
+        margin: 30px;
+        }
+    
+    .main__div--elegi { 
+        margin: 30px;
+        }
+    
+    .main__div--compra { 
+        margin: 30px;
+        }
+    
+    .main__div--retira { 
+        margin: 30px;
+        }
+}        

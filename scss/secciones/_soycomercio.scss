@@ -1,0 +1,39 @@
+.main__h3--soycomercio{
+    padding: 20px;
+    font-weight: lighter;
+}
+
+
+.main__section--bubbleCom{
+    display: inline-block;
+    background-color: wheat;
+    border: solid 30px wheat;
+    border-radius: 30px;
+    width: 700px;
+    margin: 50px;
+    padding: 10px;
+
+}
+
+.main__div--bubbleCom{
+    display: inline-block;
+    background-color: wheat;
+    border: solid 30px wheat;
+    border-radius: 30px;
+    width: 625px;
+    margin: 30px;
+    padding: 10px;
+
+}
+
+// RESPONSIVE
+
+@media (max-width:960px){
+    .main__section--bubbleCom{
+        width: 200px;
+    }
+
+    .main__p{
+        width: 200px;
+    }
+}
