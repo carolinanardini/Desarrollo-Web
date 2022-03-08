@@ -5,25 +5,29 @@
 
 
 .main__section--bubbleCom{
-    display: inline-block;
+    display: block;
     background-color: wheat;
     border: solid 30px wheat;
     border-radius: 30px;
     width: 700px;
-    margin: 50px;
+    margin-top: 60px;
     padding: 10px;
+    margin: 0 auto;
+    align-content: center;
 
 }
 
-.main__div--bubbleCom{
-    display: inline-block;
-    background-color: wheat;
-    border: solid 30px wheat;
-    border-radius: 30px;
-    width: 625px;
-    margin: 30px;
-    padding: 10px;
 
+.negrita{
+    font-weight: bold;
+}
+
+.formulario{
+    width: 600px;
+    background-color: $verde-claro;
+    padding: 15px;
+    border-radius: 5%;
+    margin: 0 auto;
 }
 
 // RESPONSIVE
@@ -35,5 +39,9 @@
 
     .main__p{
         width: 200px;
+    }
+
+    .formulario{
+        width: 350px;
     }
 }

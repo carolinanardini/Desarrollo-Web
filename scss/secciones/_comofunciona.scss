@@ -1,3 +1,13 @@
+.main__div--bubbleCom{
+    display: inline-block;
+    background-color: wheat;
+    border: solid 30px wheat;
+    border-radius: 30px;
+    width: 625px;
+    margin: 30px;
+    padding: 10px;
+
+}
 /* GRILLA DE PAGINA "COMO FUNCIONA" */
 
 .main__grilla--CF{
@@ -109,7 +119,7 @@
 
 // RESPONSIVE
     
-@media (max-width:600px){
+@media (max-width:960px){
     .main__grilla--CF {
         display: grid; 
         grid-template-columns: 1fr; 
@@ -123,24 +133,33 @@
             "main__div--retira"; 
     }
     .main__div--bubbleCom{
-        width: 250px;
+        width: 350px;
+        margin: 0 auto;
+        height: 250px;
+        margin-top: 30px;
+        margin-bottom: 0%;
+        
     }
     .main__p{
         width: 250px;
     }
     .main__div--descarga { 
-        margin: 30px;
+        margin: 0 auto;
+        width: 350px;
         }
     
     .main__div--elegi { 
-        margin: 30px;
+        margin: 0 auto;
+        width: 350px;
         }
     
     .main__div--compra { 
-        margin: 30px;
+        margin: 0 auto;
+        width: 350px;
         }
     
     .main__div--retira { 
-        margin: 30px;
+        margin: 0 auto;
+        width: 350px;
         }
 }        

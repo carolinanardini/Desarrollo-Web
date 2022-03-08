@@ -15,14 +15,26 @@
     height: 315px;
 }
 
+.filosofiavideo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 // RESPONSIVE
 
 @media (max-width:960px){
     .main__section--bubble{
         width: 200px;
+        margin: 0 auto;
+        margin-top: 30px;
     }
     .main__video{
         width: 250px;
         height: 315px;
+    }
+
+    .filosofiavideo{
+        flex-direction: column;
     }
 }

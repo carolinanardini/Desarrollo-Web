@@ -143,7 +143,6 @@
   width: 500px;
   display: inline-block;
   margin: 50px;
-  margin-top: 80px;
   padding: 10px; }
 
 .main__section--grilla {
@@ -220,6 +219,15 @@
     grid-template-areas: "section__div--item1" "section__div--item2" "section__div--item3" "section__div--item4"; }
   .section__img {
     width: 300px; } }
+
+.main__div--bubbleCom {
+  display: inline-block;
+  background-color: wheat;
+  border: solid 30px wheat;
+  border-radius: 30px;
+  width: 625px;
+  margin: 30px;
+  padding: 10px; }
 
 /* GRILLA DE PAGINA "COMO FUNCIONA" */
 .main__grilla--CF {
@@ -304,7 +312,7 @@
   margin-top: 20px;
   padding-left: 1; }
 
-@media (max-width: 600px) {
+@media (max-width: 960px) {
   .main__grilla--CF {
     display: grid;
     grid-template-columns: 1fr;
@@ -312,17 +320,25 @@
     gap: 15px 15px;
     grid-template-areas: "main__div--bubbleCom" "main__div--descarga" "main__div--elegi" "main__div--compra" "main__div--retira"; }
   .main__div--bubbleCom {
-    width: 250px; }
+    width: 350px;
+    margin: 0 auto;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 0%; }
   .main__p {
     width: 250px; }
   .main__div--descarga {
-    margin: 30px; }
+    margin: 0 auto;
+    width: 350px; }
   .main__div--elegi {
-    margin: 30px; }
+    margin: 0 auto;
+    width: 350px; }
   .main__div--compra {
-    margin: 30px; }
+    margin: 0 auto;
+    width: 350px; }
   .main__div--retira {
-    margin: 30px; } }
+    margin: 0 auto;
+    width: 350px; } }
 
 .main__div--filosofia {
   font-size: 35px;
@@ -338,12 +354,21 @@
   width: 560px;
   height: 315px; }
 
+.filosofiavideo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
 @media (max-width: 960px) {
   .main__section--bubble {
-    width: 200px; }
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px; }
   .main__video {
     width: 250px;
-    height: 315px; } }
+    height: 315px; }
+  .filosofiavideo {
+    flex-direction: column; } }
 
 .main__cara {
   display: inline-block;
@@ -366,6 +391,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 15px 0px;
+  margin: 0 auto;
   grid-template-areas: "main__h2--pagesQS main__h2--pagesQS ." "main__p--QS main__p--QS main__cara" "main__p--QS main__p--QS main__cara" "main__p--QS main__p--QS ." "main__p--QS main__p--QS ." "main__p--QS main__p--QS ."; }
 
 .main__h2--pagesQS {
@@ -400,30 +426,39 @@
   font-weight: lighter; }
 
 .main__section--bubbleCom {
-  display: inline-block;
+  display: block;
   background-color: wheat;
   border: solid 30px wheat;
   border-radius: 30px;
   width: 700px;
-  margin: 50px;
-  padding: 10px; }
+  margin-top: 60px;
+  padding: 10px;
+  margin: 0 auto;
+  align-content: center; }
 
-.main__div--bubbleCom {
-  display: inline-block;
-  background-color: wheat;
-  border: solid 30px wheat;
-  border-radius: 30px;
-  width: 625px;
-  margin: 30px;
-  padding: 10px; }
+.negrita {
+  font-weight: bold; }
+
+.formulario {
+  width: 600px;
+  background-color: #cee5d0;
+  padding: 15px;
+  border-radius: 5%;
+  margin: 0 auto; }
 
 @media (max-width: 960px) {
   .main__section--bubbleCom {
     width: 200px; }
   .main__p {
-    width: 200px; } }
+    width: 200px; }
+  .formulario {
+    width: 350px; } }
 
 .main__p--valores {
   display: inline-block;
   width: 600px;
   height: 30px; }
+
+.main__section--bubbleCom {
+  margin-top: 40px;
+  margin-bottom: 40px; }

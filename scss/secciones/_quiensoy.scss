@@ -25,6 +25,7 @@
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
     gap: 15px 0px; 
+    margin: 0 auto;
     grid-template-areas: 
       "main__h2--pagesQS main__h2--pagesQS ."
       "main__p--QS main__p--QS main__cara"
